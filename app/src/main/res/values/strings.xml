@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WrestlingCounter</string>
+
+    <string name="player_one">Wrestler ONE!!</string>
+
+    <string name="three_back_points">+3 Back Points</string>
+
+
+</resources>
