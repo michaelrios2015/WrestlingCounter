@@ -4,15 +4,16 @@
     android:layout_height="match_parent"
     android:fillViewport="true">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
 
 
             <LinearLayout
@@ -68,7 +69,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="twoPoint"
-                    android:text="@string/_2_reversal" />
+                    android:text="+2 Reversal" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -77,7 +78,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="twoPoint"
-                    android:text="@string/_2_takedown" />
+                    android:text="+2 Takedown" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -86,7 +87,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="onePoint"
-                    android:text="@string/_1_escape" />
+                    android:text="+1 Escape" />
             </LinearLayout>
 
             <View
@@ -146,7 +147,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="twoPointTeamB"
-                    android:text="@string/_2_reversal" />
+                    android:text="+2 Reversal" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -155,7 +156,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="twoPointTeamB"
-                    android:text="@string/_2_takedown" />
+                    android:text="+2 Takedown" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -164,7 +165,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="onePointTeamB"
-                    android:text="@string/_1_escape" />
+                    android:text="+1 Escape" />
             </LinearLayout>
 
 
@@ -174,12 +175,11 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
             android:onClick="reset"
             android:text="Reset" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
 </ScrollView>

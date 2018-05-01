@@ -5,5 +5,10 @@
 
     <string name="three_back_points">+3 Back Points</string>
 
+    <string name="two_back_points">+2 Back Points</string>
+    <string name="_2_takedown">+2 Takedown</string>
+    <string name="_1_escape">+1 Escape</string>
+    <string name="_2_reversal">+2 Reversal</string>
+
 
 </resources>
